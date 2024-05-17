@@ -1,0 +1,115 @@
+body {
+
+    background-image: url("img_assets/bg_stars.jpg");
+
+    display: flex;
+
+}
+
+h1{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    padding: 10px;
+
+    margin-left: 110px;
+
+    box-shadow: firebrick;
+
+    border: solid;
+
+    border-color: rgb(182, 144, 17);
+
+    margin-right: 100px;
+
+    
+
+    
+ 
+}
+
+.orangeCard {
+
+    display: flex;
+    
+    width: 200px;
+    
+    background-color: var(--comicOrange);
+
+}
+
+#linkMsgBox {  /* maybe i should just tie this to the hero img somehow */
+
+   display: flex;
+   
+    width: 300px;
+
+    background-color: white;
+
+    padding: 80px;
+
+    text-align: center;
+
+    a:hover {
+
+        color: orange;
+
+    }
+
+    border-radius: 20%;
+
+   
+
+}
+
+#linkMsgBox a {
+    
+    color: black;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    font-size:x-large;
+
+    text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* queries */
+
+@media screen and (min-width: 500px) {
+
+    body {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+}
+
+
+
+
+
+
+/* variables */
+
+:root { 
+
+    --comicOrange : rgb(231, 195, 51);
+
+}
