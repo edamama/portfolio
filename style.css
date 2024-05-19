@@ -129,7 +129,7 @@ h1{
 
     justify-content: space-evenly;
 
-    margin-bottom: 150px;
+    margin-bottom: 160px;
 
 }
 
@@ -203,7 +203,7 @@ h1{
 
     justify-content: space-evenly;
 
-    margin-bottom: 150px;
+    margin-bottom: 1px;
 
     flex-wrap: wrap-reverse;
 
@@ -373,10 +373,65 @@ button{
 }
 
 
+#box3 p{
 
+    margin :0px;
+
+    margin-left: 135px;
+
+    color: rgba(0, 0, 0, 0.538);
+
+}
 
    
+footer{
 
+    background-color: rgb(99, 104, 100);
+
+    border: solid;
+
+    border-radius: 30px;
+
+    text-align: center;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+footer h4{
+
+    font-size: x-large;
+
+    
+
+}
+
+footer a{
+
+    font-size: xx-large;
+
+    display: flex;
+
+    margin-left: 500px;
+
+    position:absolute;
+
+    text-decoration: none;
+
+}
+
+footer p{
+
+    font-size: xx-large;
+
+    margin: 0px;
+
+    margin-left: 700px;
+
+    margin-bottom: 30px;
+
+}
 
 
 /* queries */
