@@ -22,9 +22,12 @@ h1{
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-    padding: 10px;
+    padding: 15px;
 
-    box-shadow: firebrick;
+    padding-left:40px;
+
+    padding-right:40px;
+
  
 }
 
@@ -123,8 +126,6 @@ h1{
 
     display: flex;
 
-    
-
     flex-wrap: wrap-reverse;
 
     justify-content: space-evenly;
@@ -189,7 +190,7 @@ h1{
 
     transform: rotate(-10deg);
 
-    height: max-content;
+   height: max-content;
 
 
 
@@ -217,6 +218,9 @@ p.orangeCard {
     margin-bottom: 150px; 
     
     margin-top: 50px;
+
+    display:flex;
+
 
 }
 
@@ -401,42 +405,21 @@ footer{
 
 footer h4{
 
-    font-size: x-large;
-
-    
-
-}
-
-footer a{
-
     font-size: xx-large;
-
-    display: flex;
-
-    margin-left: 500px;
-
-    position:absolute;
-
-    text-decoration: none;
 
 }
 
 footer p{
 
-    font-size: xx-large;
-
-    margin: 0px;
-
-    margin-left: 700px;
-
-    margin-bottom: 30px;
+    font-size: x-large;
 
 }
 
 
+
 /* queries */
 
-@Media screen and (max-width: 600px) {
+@media screen and (orientation:portrait) {
 
    body {
 
@@ -444,10 +427,10 @@ footer p{
 
         align-items: center;
 
-   
     }
 
 }
+
 
 
 
