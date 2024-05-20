@@ -2,6 +2,10 @@ body {
 
     background-image: url("img_assets/bg_stars.jpg");
 
+    display: flex;
+
+    flex-direction: column;
+
 }
 
 header{
@@ -165,6 +169,7 @@ h1{
 
     border-radius: 60px;
 
+    width:auto;
 
 
 }
@@ -190,7 +195,7 @@ h1{
 
     transform: rotate(-10deg);
 
-   height: max-content;
+    height: max-content;
 
 
 
@@ -220,6 +225,10 @@ p.orangeCard {
     margin-top: 50px;
 
     display:flex;
+
+    width:auto;
+
+    height:max-content;
 
 
 }
@@ -400,6 +409,7 @@ footer{
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+    width:auto;
 }
 
 
@@ -415,22 +425,62 @@ footer p{
 
 }
 
+#box1 strong{
 
-
-/* queries */
-
-@media screen and (orientation:portrait) {
-
-   body {
-
-        flex-direction: column;
-
-        align-items: center;
-
-    }
+    position: absolute;
 
 }
 
+/* queries */
+
+
+@media screen and (max-width:630px){
+
+
+    body{
+
+        width:180%;
+
+        height: auto;
+
+    }
+
+    #box1 strong,a{
+
+        position:relative;top:50px;left: 20px;
+
+        margin:0px;
+
+        text-decoration: none;
+
+    }
+
+
+
+    #box2 a{
+
+        position:relative;top:-1px;left:-5px;
+
+    }
+
+
+    #linkMsgBox a{
+
+        position:relative;left:-5px;top:-1px;
+
+    }
+
+
+
+
+}
+
+
+   
+    
+
+        
+        
 
 
 
