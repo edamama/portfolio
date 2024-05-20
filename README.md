@@ -1,5 +1,5 @@
 This is the repository for the Module 2 Challenge 2 project. 
-It is a place for me to upload my projects to show potential future employers.
+It is a site for me to upload my projects to show potential future employers.
 
 This site should largely render properly. It was tested for accessibility using the google chrome inspect/device simulations. 
 I ran into no problems there. 
